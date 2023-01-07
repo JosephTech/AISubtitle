@@ -1,7 +1,7 @@
 
-dependency:
-    ffmpeg   
-    torch
-    torchaudio
-    pydub
+dependency:  
+    ffmpeg     
+    torch  
+    torchaudio  
+    pydub  
     
