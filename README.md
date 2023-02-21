@@ -13,7 +13,7 @@
 
 ## 腾讯云对象存储COS配置
 
-[cos](https://github.com/JosephTech/AISubtitle/blob/master/images/cos.bmp)
+![cos](https://github.com/JosephTech/AISubtitle/blob/master/images/cos.bmp)
 
 server:
 	flask
