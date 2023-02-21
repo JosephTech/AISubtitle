@@ -1,0 +1,49 @@
+/* pages/progress/progress.wxss */
+.progress_box{
+  position: relative;
+  top: 200rpx;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffeeff;
+}
+.progress_bg{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+}
+.progress_bar{
+  width: 220px;
+  height: 220px;
+}
+.progress_number{
+  color: red;
+  position:relative;
+  align-items: center;
+  justify-content: center;
+}
+.progress_text{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.progress_info{
+  font-size: 36rpx;
+  padding-left: 16rpx;
+  letter-spacing: 2rpx;
+}
+.current_progress{
+  font-size: 52rpx;
+  padding-left: 16rpx;
+  letter-spacing: 2rpx;
+}
+.intro{
+  position: absolute;
+  top: 10rpx;
+  height: 150rpx
+}
+
+

@@ -1,0 +1,26 @@
+/* pages/player/player.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.video_player{
+  position: relative;
+  height: 600rpx
+}
+
+.btn1{
+  height: 150rpx;
+}
+
+.btn2{
+  height: 150rpx;
+}
+
+.two_buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+

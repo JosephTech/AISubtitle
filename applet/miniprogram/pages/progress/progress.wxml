@@ -1,0 +1,14 @@
+<!--pages/progress/progress.wxml-->
+<view, class="container">
+  <view class="intro">
+    <canvas id="canvas-3" type="2d"></canvas>
+  </view>
+  <view, class="progress_box">
+    <canvas class="progress_bg" type="2d" id="canvasProgressBg"></canvas>
+    <canvas class="progress_bar" type="2d" id="canvasProgressBar"></canvas>
+    <view class="progress_text">
+      <text class="current_progress">{{current_progress}}%</text>
+      <text class="progress_info">{{progress_txt}}</text>
+    </view>
+  </view>
+</view>

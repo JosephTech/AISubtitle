@@ -1,0 +1,17 @@
+<!--index.wxml-->
+
+
+<view class="container">
+  <view class="userinfo">
+  </view>
+  <view class="intro">
+    <canvas id="canvas-1" type="2d"></canvas>
+    <canvas id="canvas-2" type="2d"></canvas>
+  </view>
+  <view class="flex-item">
+      <button bindtap="onUploadVideoClick" type="primary">上传视频</button>
+  </view>
+</view>
+
+
+

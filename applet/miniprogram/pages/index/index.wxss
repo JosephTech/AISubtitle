@@ -1,0 +1,40 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.flex-item {
+  /*display: flex;*/
+  /*align-items: center;*/
+  position: absolute;
+  bottom: 200rpx;
+} 
+.intro{
+  position: absolute;
+  top: 10rpx;
+}
+/*
+.flex-item button{
+  position: absolute;
+  bottom: 200rpx; 
+} */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

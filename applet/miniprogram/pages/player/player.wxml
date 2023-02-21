@@ -1,0 +1,14 @@
+<!--pages/player/player.wxml-->
+<view class="container">
+  <view class="video_player">
+    <video src="{{video_url}}" enable-progress-gesture loop muted page-gesture initial-time="60" ></video>
+  </view>
+  <view class="two_buttons">
+    <view class="btn1" >
+      <button bindtap="onDownloadVideoClick" type="primary">下载视频</button>
+    </view>
+    <view class="btn2">
+      <button bindtap="onDownloadAssClick" type="primary">下载ass字幕</button>
+    </view>
+  </view>
+</view>
